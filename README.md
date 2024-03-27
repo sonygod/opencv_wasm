@@ -1,4 +1,4 @@
-## OpenCV: Open Source Computer Vision Library
+## OpenCV: Open Source Computer Vision Library for wasm
 
 
 ### Resources

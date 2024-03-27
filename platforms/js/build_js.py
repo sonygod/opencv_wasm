@@ -180,7 +180,7 @@ class Builder:
         if self.options.build_wasm:
             flags += "-s WASM=1 "
         elif self.options.disable_wasm:
-            flags += "-s WASM=0 "
+            flags += "-s WASM=1 "
         if not self.options.disable_single_file:
             flags += "-s SINGLE_FILE=1 "
         if self.options.threads:
